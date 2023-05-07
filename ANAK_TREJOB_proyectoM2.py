@@ -2,13 +2,13 @@ palabra = input("Ingrese una palabra: ")
 
 letra = "Letras"
 
-print(palabra, len(palabra))
+print(palabra, len(palabra), ("letras")
 
 if len(palabra) <4 :
     print("Faltan letras. Intenta de nuevo.")
 
 elif len(palabra) <=8 :
-    print("Palabra Corrcta!")
+    print("Palabra Correcta!")
 
 elif len(palabra) >8 :
     print("Sobran letras. Intenta de nuevo.")
